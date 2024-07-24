@@ -1,0 +1,1 @@
+In this project, I developed a functional CPU that executes a subset of ARM v8 64-bit instructions. The core feature is a 5-stage pipeline with advanced hazard handling mechanisms. Using VHDL, I implemented key components like the ALU, register file, and control units, integrating them into a cohesive system.

@@ -9,7 +9,8 @@ The processor fetches instructions from instruction memory, decodes them, execut
 - Place all VHDL files (.vhd) in a single directory.
 - Use the provided Makefile to compile and run the simulation:
 
-  For example program 1: Run 'make p1'
+  For example program 1: Run 'make p1',
+  
   For example program 2: Run 'make p2'
 
 This will compile the VHDL files, run the simulation, and generate a waveform file.

@@ -1,0 +1,70 @@
+v 4
+file . "imem_p2.vhd" "34dc7e2a6842af104a79980a454be83549208ae0" "20231219153752.445":
+  entity imem at 1( 0) + 0 on 1161;
+  architecture behavioral of imem at 16( 460) + 0 on 1162;
+file . "EX_MEM.vhd" "5ab3aeba5ad87aefecf5a0354fd2d7475c413311" "20231219153752.403":
+  entity ex_mem at 1( 0) + 0 on 1153;
+  architecture data_flow of ex_mem at 34( 1379) + 0 on 1154;
+file . "IF_ID.vhd" "d30edc706d2b68125ce3d6c9b0e925586d022b96" "20231219153752.401":
+  entity if_id at 1( 0) + 0 on 1151;
+  architecture data_flow of if_id at 17( 495) + 0 on 1152;
+file . "ID_EX.vhd" "95a7bb4c96f8d0f2a3fac51543b8f2636b89f44c" "20231219153752.399":
+  entity id_ex at 1( 0) + 0 on 1149;
+  architecture data_flow of id_ex at 44( 1991) + 0 on 1150;
+file . "MEM_WB.vhd" "4423a91293f18e3da1062cd42d9f6307338a7491" "20231219153752.397":
+  entity mem_wb at 1( 0) + 0 on 1147;
+  architecture data_flow of mem_wb at 22( 884) + 0 on 1148;
+file . "fullAdder.vhd" "9dcdff11d862efb3d13a39051cb600035d0fcd5a" "20231219153752.348":
+  entity fadd at 1( 0) + 0 on 1135;
+  architecture synth of fadd at 25( 685) + 0 on 1136;
+file . "halfAdder.vhd" "c902eaba57a8d94c84dbb0b40f8c2fe904e237ad" "20231219153752.346":
+  entity hadd at 1( 0) + 0 on 1133;
+  architecture synth of hadd at 20( 452) + 0 on 1134;
+file . "add.vhd" "2a2ec2a1624fd43bb8a5ce7342ae6deedb32d524" "20231219153752.345":
+  entity add at 1( 0) + 0 on 1131;
+  architecture structural of add at 15( 298) + 0 on 1132;
+file . "mux5.vhd" "2ebb53617598b6065d9d284c7c3ec295419d78bf" "20231219153752.314":
+  entity mux5 at 1( 0) + 0 on 1121;
+  architecture synth of mux5 at 14( 378) + 0 on 1122;
+file . "mux64.vhd" "8d93b8b7553b2f5f851c1956c5c0c5cbfce62ff3" "20231219153752.316":
+  entity mux64 at 1( 0) + 0 on 1123;
+  architecture synth of mux64 at 14( 384) + 0 on 1124;
+file . "pc.vhd" "e12eb803755062983fa73760e737d026854ee855" "20231219153752.324":
+  entity pc at 1( 0) + 0 on 1125;
+  architecture behavioral of pc at 16( 629) + 0 on 1126;
+file . "shiftleft2.vhd" "301a44f11671bca618f13c723ae4a6ea6104ef54" "20231219153752.326":
+  entity shiftleft2 at 1( 0) + 0 on 1127;
+  architecture synth of shiftleft2 at 12( 263) + 0 on 1128;
+file . "signextend.vhd" "e8f4e694b94ea4d253281102d4093a48a6599d2b" "20231219153752.328":
+  entity signextend at 1( 0) + 0 on 1129;
+  architecture dataflow of signextend at 12( 222) + 0 on 1130;
+file . "alu.vhd" "77e86fb066e1f6a7f27f0a866adee66c65256e44" "20231219153752.368":
+  entity alu at 1( 0) + 0 on 1137;
+  architecture synth of alu at 24( 788) + 0 on 1138;
+file . "alucontrol.vhd" "fd071259379a97b0a5df9e6051f50055cd94ed5e" "20231219153752.369":
+  entity alucontrol at 1( 0) + 0 on 1139;
+  architecture dataflow of alucontrol at 18( 751) + 0 on 1140;
+file . "cpucontrol.vhd" "86afc396b00b53d8e38fa1f77a41ed5f180ded80" "20231219153752.372":
+  entity cpucontrol at 1( 0) + 0 on 1141;
+  architecture dataflow of cpucontrol at 26( 790) + 0 on 1142;
+file . "dmem.vhd" "235910e0972a5e6b2f68f80440b521d0a1981253" "20231219153752.376":
+  entity dmem at 1( 0) + 0 on 1143;
+  architecture behavioral of dmem at 23( 1065) + 0 on 1144;
+file . "registers.vhd" "bac008a8df0e9b21bdc4e842af629cff81569ee4" "20231219153752.379":
+  entity registers at 2( 1) + 0 on 1145;
+  architecture behaveioral of registers at 23( 703) + 0 on 1146;
+file . "ForwardingUnit.vhd" "5c4c9ab6d70c373de9fe4607f9a9c64cae383ccc" "20231219153752.422":
+  entity forwardingunit at 1( 0) + 0 on 1155;
+  architecture behavioral of forwardingunit at 20( 707) + 0 on 1156;
+file . "HazardDetectionUnit.vhd" "f18dcfe35f3142188dea8ecaf7ac6d9e7f51ae40" "20231219153752.424":
+  entity hazarddetectionunit at 1( 0) + 0 on 1157;
+  architecture behavioral of hazarddetectionunit at 18( 580) + 0 on 1158;
+file . "mux3way.vhd" "8018c13c636b6c41d06800f7d4d68717d9f23657" "20231219153752.426":
+  entity mux3way at 1( 0) + 0 on 1159;
+  architecture dataflow of mux3way at 15( 415) + 0 on 1160;
+file . "pipelinedcpu1.vhd" "9e814b960535c85d7145480c163e3716bff03e1a" "20231219153752.467":
+  entity pipelinedcpu1 at 1( 0) + 0 on 1163;
+  architecture structural of pipelinedcpu1 at 27( 822) + 0 on 1164;
+file . "pipecpu1_tb.vhd" "9b80ba17aab0212c17fe246cd608fc373df048e0" "20231219153752.469":
+  entity pipecpu_testbench at 1( 0) + 0 on 1165;
+  architecture struct of pipecpu_testbench at 12( 296) + 0 on 1166;

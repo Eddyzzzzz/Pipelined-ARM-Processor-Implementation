@@ -5,7 +5,7 @@ This project implements a pipelined processor based on the LEGv8 architecture, a
 The processor fetches instructions from instruction memory, decodes them, executes operations using the ALU, accesses data memory when needed, and writes results back to registers. The forwarding unit detects data dependencies and routes data between pipeline stages to resolve hazards. The hazard detection unit manages pipeline stalls for scenarios like load-use hazards. Control flow instructions are handled with early branch resolution in the decode stage.
 
 # How to run the program:
-- Ensure GHDL and a waveform viewer (like GTKWave) are installed on your system.
+- Install GHDL and a waveform viewer (e.g. GTKWave) on your system.
 - Place all VHDL files (.vhd) in a single directory.
 - Use the provided Makefile to compile and run the simulation:
 
@@ -17,4 +17,4 @@ This will compile the VHDL files, run the simulation, and generate a waveform fi
 
 # How to check the result:
 - Open the generated waveform file (e.g., 'pipelinedcpu1_p1.ghw' or 'pipelinedcpu1_p2.ghw') using GTKWave.
-- key signals include PC, Instruction, RegisterFile contents, ALU outputs, etc.
+- Key signals include PC, Instruction, RegisterFile contents, ALU outputs, etc.
